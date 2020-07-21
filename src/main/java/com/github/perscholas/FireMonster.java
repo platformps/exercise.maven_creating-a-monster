@@ -1,6 +1,6 @@
 package com.github.perscholas;
 
-public class FireMonster extends Monster{
+public class FireMonster implements Monster{
 
     public FireMonster(){
 
