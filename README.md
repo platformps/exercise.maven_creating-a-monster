@@ -4,7 +4,7 @@
 * **Purpose** - To gain familiarity with inheritance and polymorphism
 * **Description**
     * We have many types of monsters that can attack.
-    * We shall design a superclass called `Monster` and define the method named `attack()` in the superclass.
+    * We shall design a superclass named `Monster` and declare the method named `attack()` in the superclass.
     * The subclasses shall then provides their actual implementation.
     * Ensure that all test cases in `src.test.com.github.perscholas` pass with 100% success rate.
 
