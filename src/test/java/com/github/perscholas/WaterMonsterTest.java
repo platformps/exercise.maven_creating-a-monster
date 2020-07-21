@@ -22,12 +22,11 @@ public class WaterMonsterTest {
     @Test
     public void testAttack() {
         // given
-        WaterMonster fireMonster = new WaterMonster();
-        Monster monster = (Monster) fireMonster;
+        Monster fireMonster = new WaterMonster();
         String expected = "Water Ball";
 
         // when
-        String actual = monster.attack();
+        String actual = fireMonster.attack();
 
         // then
         Assert.assertEquals(expected, actual);
